@@ -1,0 +1,106 @@
+stocks:
+  - symbol: TATASTEEL
+    name: "Tata Steel Ltd."
+    sector: NIFTY METAL
+    sector_symbol: NIFTYMETAL
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: TATASTEEL
+
+  - symbol: HINDALCO
+    name: "Hindalco Industries Ltd."
+    sector: NIFTY METAL
+    sector_symbol: NIFTYMETAL
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: HINDALCO
+
+  - symbol: VEDL
+    name: "Vedanta Ltd."
+    sector: NIFTY METAL
+    sector_symbol: NIFTYMETAL
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: VEDL
+
+  - symbol: ETERNAL
+    display_symbol: ZOMATO
+    name: "Eternal Ltd (formerly Zomato Ltd)"
+    sector: NIFTY 50
+    sector_symbol: NIFTY
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: ETERNAL
+
+  - symbol: BEL
+    name: "Bharat Electronics Ltd."
+    sector: NIFTY 50
+    sector_symbol: NIFTY
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: BEL
+
+  - symbol: DLF
+    name: "DLF Ltd."
+    sector: NIFTY REALTY
+    sector_symbol: NIFTYREALTY
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: DLF
+
+  - symbol: RECLTD
+    name: "REC Ltd."
+    sector: NIFTY FIN SERVICE
+    sector_symbol: FINNIFTY
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: RECLTD
+
+  - symbol: MOTHERSON
+    name: "Samvardhana Motherson International"
+    sector: NIFTY AUTO
+    sector_symbol: NIFTYAUTO
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: MOTHERSON
+
+  - symbol: TMPV
+    display_symbol: TATAMOTORS
+    name: "Tata Motors Passenger Vehicles Ltd"
+    sector: NIFTY AUTO
+    sector_symbol: NIFTYAUTO
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: TMPV
+
+  - symbol: CANBK
+    name: "Canara Bank"
+    sector: NIFTY PSU BANK
+    sector_symbol: NIFTYPSUBANK
+    tick_size: 0.05
+    mis_multiplier: 5.0
+    groww_symbol: CANBK
+
+indices:
+  - symbol: NIFTY
+    name: "NIFTY 50"
+    groww_symbol: NIFTY
+  - symbol: INDIAVIX
+    name: "INDIA VIX"
+    groww_symbol: INDIAVIX
+  - symbol: NIFTYMETAL
+    name: "NIFTY METAL"
+    groww_symbol: NIFTYMETAL
+  - symbol: NIFTYAUTO
+    name: "NIFTY AUTO"
+    groww_symbol: NIFTYAUTO
+  - symbol: NIFTYREALTY
+    name: "NIFTY REALTY"
+    groww_symbol: NIFTYREALTY
+  - symbol: NIFTYPSUBANK
+    name: "NIFTY PSU BANK"
+    groww_symbol: NIFTYPSUBANK
+  - symbol: FINNIFTY
+    name: "NIFTY FINANCIAL SERVICES"
+    groww_symbol: FINNIFTY
+

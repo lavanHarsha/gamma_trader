@@ -1,0 +1,110 @@
+{
+  "folds_evaluated": 5,
+  "overall_oos_metrics": {
+    "total_trades": 13,
+    "win_rate": 7.7,
+    "profit_factor": 0.17,
+    "expectancy_rs": -96.94,
+    "total_net_pnl": -1260.19,
+    "brier_score": 0.5473,
+    "max_drawdown_rs": 1338.69,
+    "sharpe_ratio": -11.68,
+    "deflated_sharpe": 0.0
+  },
+  "baseline_metrics": {
+    "total_trades": 246,
+    "win_rate": 17.9,
+    "profit_factor": 0.29,
+    "expectancy_rs": -68.84,
+    "total_net_pnl": -16933.44,
+    "brier_score": 0.1125,
+    "max_drawdown_rs": 17423.21,
+    "sharpe_ratio": -8.11,
+    "deflated_sharpe": 0.0
+  },
+  "conviction_threshold": 0.58,
+  "calibration_bins": [
+    {
+      "bin": "50% - 55%",
+      "count": 2,
+      "realized": "0.0%",
+      "calibrated": true
+    },
+    {
+      "bin": "55% - 60%",
+      "count": 4,
+      "realized": "0.0%",
+      "calibrated": true
+    },
+    {
+      "bin": "60% - 65%",
+      "count": 2,
+      "realized": "50.0%",
+      "calibrated": true
+    },
+    {
+      "bin": "65% - 70%",
+      "count": 2,
+      "realized": "0.0%",
+      "calibrated": true
+    },
+    {
+      "bin": "70%+",
+      "count": 8,
+      "realized": "0.0%",
+      "calibrated": true
+    }
+  ],
+  "fold_details": [
+    {
+      "fold": 1,
+      "train_samples": 352,
+      "val_samples": 49,
+      "test_samples": 45,
+      "oos_win_rate": 33.3,
+      "oos_expectancy_rs": -24.63,
+      "oos_profit_factor": 0.68,
+      "oos_brier_score": 0.1287
+    },
+    {
+      "fold": 2,
+      "train_samples": 347,
+      "val_samples": 47,
+      "test_samples": 66,
+      "oos_win_rate": 13.6,
+      "oos_expectancy_rs": -90.24,
+      "oos_profit_factor": 0.13,
+      "oos_brier_score": 0.1002
+    },
+    {
+      "fold": 3,
+      "train_samples": 328,
+      "val_samples": 61,
+      "test_samples": 44,
+      "oos_win_rate": 18.2,
+      "oos_expectancy_rs": -59.1,
+      "oos_profit_factor": 0.36,
+      "oos_brier_score": 0.1224
+    },
+    {
+      "fold": 4,
+      "train_samples": 308,
+      "val_samples": 47,
+      "test_samples": 36,
+      "oos_win_rate": 13.9,
+      "oos_expectancy_rs": -54.91,
+      "oos_profit_factor": 0.25,
+      "oos_brier_score": 0.1054
+    },
+    {
+      "fold": 5,
+      "train_samples": 288,
+      "val_samples": 37,
+      "test_samples": 55,
+      "oos_win_rate": 12.7,
+      "oos_expectancy_rs": -96.22,
+      "oos_profit_factor": 0.23,
+      "oos_brier_score": 0.1105
+    }
+  ]
+}
